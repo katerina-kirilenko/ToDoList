@@ -1,0 +1,15 @@
+.item-add-form {
+  margin-top: 10px;
+}
+
+.item-add-form input {
+  margin-right: 3px;
+}
+
+.btn-add-item {
+  min-width: 100px;
+}
+
+.input-add-item::placeholder {
+color: #ccc;
+}

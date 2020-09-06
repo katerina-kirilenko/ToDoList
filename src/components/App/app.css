@@ -1,0 +1,14 @@
+#root {
+  display: flex;
+  justify-content: center;
+}
+
+.todo-app {
+  width: 70%;
+  margin-top: 10%;
+}
+
+.top-panel {
+  margin-bottom: 15px;
+  justify-content: space-between;
+}
