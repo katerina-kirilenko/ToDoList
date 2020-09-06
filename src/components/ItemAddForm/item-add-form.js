@@ -11,7 +11,6 @@ export default class ItemAddForm extends Component  {
     this.setState({
       label: event.target.value
     });
-    // console.log('change', event.target.value);
   };
 
   onSubmit = (event) => {
@@ -32,7 +31,7 @@ export default class ItemAddForm extends Component  {
           type="text"
           className="form-control input-add-item"
           onChange={this.onLabelChange}
-          placeholder="Wat needs to be done"
+          placeholder="What needs to be done?"
           value={this.state.label}
         />
         <button
